@@ -1,7 +1,7 @@
 ---   
 home: true
 heroImage: 
-actionText: 快速上手 →
+actionText: 开始阅读 →
 actionLink: /nomal/
 features:
 - title: 日常记录
