@@ -2,6 +2,9 @@
 
 
 echo 'start to build static html page !'
+
+npm install -D vuepress
+
 npm run install
 # 生成静态文件
 npm run docs:build
