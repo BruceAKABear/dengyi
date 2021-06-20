@@ -3,7 +3,7 @@
 home: true
 heroImage: 
 actionText: 开始阅读 →
-actionLink: /nomal/
+actionLink: /normal/
 features:
 - title: 日常记录
   details: 生活不如意十之八九，平时不管是开发上还是生活中总有些经验或者教训需要简单记录。
