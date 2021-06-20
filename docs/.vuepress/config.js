@@ -6,7 +6,7 @@ module.exports = {
     ],
     themeConfig: {
         nav: [
-            { text: '日常', link: '/nomal/' },
+            { text: '日常', link: '/normal/' },
             { text: '嵌入式', link: '/embedded/' },
             { text: '硬件', link: '/hardware/' },
             { text: '软件', link: '/software/' },
