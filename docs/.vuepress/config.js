@@ -4,7 +4,9 @@ module.exports = {
     head: [
         ['link', { rel: 'shortcut icon', href: '/favicon.ico' }]
     ],
+    plugins: ['@vuepress/back-to-top','@vuepress/active-header-links'],
     themeConfig: {
+        lastUpdated: 'Last Updated',
         nav: [
             { text: '日常', link: '/normal/' },
             { text: '嵌入式', link: '/embedded/' },
@@ -16,8 +18,8 @@ module.exports = {
         sidebar: {
             '/hardware/': [
                 {
-                    title: '通讯协议',
-                    path: 'protocol'
+                    title: '下载器',
+                    path: 'downloader'
                 },
                 {
                     title: '智能开关',
