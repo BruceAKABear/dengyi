@@ -22,6 +22,10 @@ module.exports = {
                     path: 'downloader'
                 },
                 {
+                    title: '无线温湿度检测器',
+                    path: 'smarttemp'
+                },
+                {
                     title: '智能开关',
                     path: 'smartswitch'
                 }
