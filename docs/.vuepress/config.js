@@ -46,8 +46,8 @@ module.exports = {
             ],
             '/software/': [
                 {
-                    title: '数据库模型',
-                    path: 'databasemodel'
+                    title: 'Byte最小值为什么是-128？',
+                    path: 'whyByte.md'
                 }
             ]
         }
