@@ -5,7 +5,10 @@ module.exports = {
     head: [
         ['link', { rel: 'shortcut icon', href: '/favicon.ico' }]
     ],
-    plugins: ['@vuepress/back-to-top', '@vuepress/active-header-links'],
+    plugins: ['@vuepress/back-to-top', '@vuepress/active-header-links', '@vuepress/medium-zoom'],
+    markdown: {
+        lineNumbers: true
+    },
     themeConfig: {
         lastUpdated: '上次更新时间',
         smoothScroll: true,
@@ -48,6 +51,9 @@ module.exports = {
                 {
                     title: 'Byte最小值为什么是-128？',
                     path: 'whyByte.md'
+                }, {
+                    title: '微服务网关增加swagger文档入口',
+                    path: 'gatewayswagger.md'
                 }
             ]
         }
