@@ -8,7 +8,7 @@
 
 ## 1. 网关选型
 
-自从eureka停更以后，先如今只有性能更强的spring家族的[spring-cloud-gateway](https://spring.io/projects/spring-cloud-gateway)可以选择了。用了[spring-cloud-gateway](https://spring.io/projects/spring-cloud-gateway)就要注意一点本质区别，那就是spring-cloud-gateway使用的web-flux技术来开发的类似于Android中的rxjava。很多人搭建网关项目不能启动的根本原因就是因为webflux，他和我们以前servlet是冲突的，所以千万不要在网关中引入相关的依赖。以下我将基于[spring-cloud-gateway](https://spring.io/projects/spring-cloud-gateway)网关进行配置。
+自从ZUUL停更以后，先如今只有性能更强的spring家族的[spring-cloud-gateway](https://spring.io/projects/spring-cloud-gateway)可以选择了。用了[spring-cloud-gateway](https://spring.io/projects/spring-cloud-gateway)就要注意一点本质区别，那就是spring-cloud-gateway使用的web-flux技术来开发的类似于Android中的rxjava。很多人搭建网关项目不能启动的根本原因就是因为webflux，他和我们以前servlet是冲突的，所以千万不要在网关中引入相关的依赖。以下我将基于[spring-cloud-gateway](https://spring.io/projects/spring-cloud-gateway)网关进行配置。
 
 ## 2. swagger原理解析
 
