@@ -35,7 +35,7 @@ module.exports = {
             '/embedded/': [],
             '/hardware/': [
                 {
-                    title: '下载器',
+                    title: 'ESP芯片下载器',
                     path: 'downloader'
                 },
                 {
@@ -43,7 +43,7 @@ module.exports = {
                     path: 'smarttemp'
                 },
                 {
-                    title: '智能开关',
+                    title: 'WiFi通断器',
                     path: 'smartswitch'
                 }
             ],
