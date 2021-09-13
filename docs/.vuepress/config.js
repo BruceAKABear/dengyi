@@ -32,7 +32,12 @@ module.exports = {
                 }
 
             ],
-            '/embedded/': [],
+            '/embedded/': [
+                {
+                    title: '深入ESP32睡眠模式及功耗',
+                    path: 'esp32sleepmode'
+                },
+            ],
             '/hardware/': [
                 {
                     title: 'ESP芯片下载器',
